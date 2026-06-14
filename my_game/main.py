@@ -83,7 +83,7 @@ class Game:
         self.score = 0
         
         # Level Timer settings
-        self.level_time_limit = 999 # 16.6 minutes per level (999 seconds)
+        self.level_time_limit = 120 # 2 minutes per level (120 seconds)
         self.level_timer = self.level_time_limit
         self.timer_accumulator = 0
         
