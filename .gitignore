@@ -1,0 +1,9 @@
+.venv/
+my_game/.venv/
+__pycache__/
+my_game/src/__pycache__/
+*.pyc
+.DS_Store
+my_game/.DS_Store
+.gemini/
+.git/
