@@ -10,9 +10,9 @@ from src.config import (
     BLACK
 )
 
-class MushroomEnemy(pygame.sprite.Sprite):
+class Zoombie(pygame.sprite.Sprite):
     """
-    MushroomEnemy patrolling platform platforms.
+    Zoombie patrolling platform platforms.
     Features:
     1. Chasing nearby collectibles to pick up and carry on its head.
     2. Chasing the player when they step within aggro range.

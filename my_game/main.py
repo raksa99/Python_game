@@ -25,7 +25,7 @@ from src.config import (
     SFX_DIR
 )
 from src.player import Player
-from src.enemies import MushroomEnemy
+from src.enemies import Zoombie
 from src.levels import Level
 
 
@@ -255,7 +255,7 @@ class Game:
         enemy_h = int(TILE_SIZE * 1.5)
         for ex, ey in self.level.enemies_data:
             ey = ey - (enemy_h - TILE_SIZE)
-            enemy = MushroomEnemy(ex, ey)
+            enemy = Zoombie(ex, ey)
             self.enemies.add(enemy)
 
     def spawn_particles(self, x, y, color, count=10):
