@@ -570,7 +570,7 @@ class Game:
         self.screen.blit(level_label, (20, 42))
 
         # 3. Game Title
-        title_label = self.render_khmer("លោតអង្គរ", 18, WHITE)
+        title_label = self.render_khmer("ដំណើរផ្សងព្រេងរកកំណប់", 18, WHITE)
         title_rect = title_label.get_rect(center=(SCREEN_WIDTH // 2, 25))
         self.screen.blit(title_label, title_rect)
 
@@ -678,7 +678,7 @@ class Game:
         self.screen.blit(glow_surf, (title_rect.x + 2, title_rect.y + 2))
         self.screen.blit(title_surf, title_rect)
         
-        sub_surf = self.render_khmer("អ្នកបានឈ្នះ លោតអង្គរ!", 18, NEON_BLUE)
+        sub_surf = self.render_khmer("អ្នកបានឈ្នះ ដំណើរផ្សងព្រេងរកកំណប់!", 18, NEON_BLUE)
         sub_rect = sub_surf.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2 + 10))
         self.screen.blit(sub_surf, sub_rect)
         
